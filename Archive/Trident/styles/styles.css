@@ -1,0 +1,223 @@
+/*@font-face {
+    font-family: 'Uncial Antiqua', cursive;
+    src: url(/styles/UncialAntiqua-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(/styles/Montserrat-VariableFont_wght.ttf);
+} */
+
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Uncial Antiqua', cursive;
+*/
+
+
+/*Page*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: #ACD3e5;
+    opacity: 1;
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #ACD3e5 150px), repeating-linear-gradient( #acd3e5, #7ccae9);
+    background-blend-mode: soft-light;
+}
+
+
+/*Heading and Event Desc*/
+
+.mainlogo {
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+.EventLogo {
+    padding: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: #012d6c;
+}
+
+.EventDesc {
+    padding: 5%;
+    background-color: #def2f1;
+    border-radius: 15px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    color: #012d6c;
+}
+
+.EventPara {
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.btn-group {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+#ddbtn {
+    background-color: #012d6c;
+    font-size: xx-large;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+#ddbtn::after {
+    content: none;
+}
+
+.dropdown-item {
+    text-align: center;
+    color: #012d6c;
+    font-size: large;
+}
+
+.dropdown-item:hover {
+    background-color: #def2f1;
+    color: #012d6c;
+}
+
+.carousel .item img {
+    max-height: 768px;
+    min-width: auto;
+}
+
+
+/* linktree cards */
+
+.linktreecards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #def2f1;
+    border-radius: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-color: #012d6c;
+}
+
+.cardimage {
+    padding: 10%;
+    border-radius: 15px;
+}
+
+.compbody {
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.comptitle {
+    font-family: 'Montserrat', sans-serif;
+    color: #012d6c;
+}
+
+.compara {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*---------------------------------------
+     FOOTER
+  -----------------------------------------*/
+
+footer {
+    background: #252020;
+    padding: 120px 0;
+}
+
+footer .section-title {
+    padding-bottom: 10px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+footer a,
+footer p {
+    color: #909090;
+}
+
+footer strong {
+    color: #d9d9d9;
+}
+
+footer address p {
+    margin-bottom: 0;
+}
+
+footer .social-icon {
+    margin-top: 25px;
+}
+
+.footer-info {
+    margin-right: 2em;
+}
+
+.footer-info h2 {
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer_menu h2 {
+    margin-top: 2em;
+}
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px 5px 0;
+}
+
+.newsletter-form .form-control {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #303030;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.newsletter-form input[type="submit"] {
+    background: transparent;
+    border: 1px solid #f9f9f9;
+    border-radius: 50px;
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    outline: none;
+    width: 50%;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background: #012d6c;
+    border-color: transparent;
+}
+
+.newsletter-form .form-group span {
+    color: #909090;
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+}

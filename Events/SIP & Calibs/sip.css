@@ -1,0 +1,116 @@
+@media only screen and (min-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #000000;
+        color: white;
+    }
+
+    .SIPTitle {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 72px;
+        padding: 1%;
+    }
+
+    .buffer {
+        height: 100vh;
+        width: 100vw;
+        background-color: red;
+    }
+    .carousel-item {
+        height: 550px;
+    }
+
+    .con {
+        width: 75%;
+        position: relative;
+        left: 12.5%;
+        background-color: #000000;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1%;
+        color: white;
+    }
+
+    .instagram-media {
+        width: 30%;
+    }
+
+    .heading {
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .sip_carosal_content {
+        margin: 2%;
+    }
+
+    .sip_content {
+        width: 70%;
+        margin: 1%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        color: white;
+    }
+
+    .SIPTitle {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    .sip_carosal_content {
+        padding: 1%;
+        text-align: center;
+    }
+
+    .con {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1%;
+        background-color: #000000;
+        position: relative;
+    }
+
+    .sip_content {
+        padding: 1%;
+        margin: 1%;
+    }
+
+    .instagram-media {
+        border: 2px solid red;
+        align-self: center;
+        width: 50%;
+    }
+    #Calibs-outer {
+        padding: 5%;
+    }
+}
